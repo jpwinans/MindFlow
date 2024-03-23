@@ -34,7 +34,7 @@ cd MindFlow
 pip install -r requirements.txt
 ```
 
-3. **Configuration**: #TODO
+3. **Configuration**: create `.anthropic_key` file in base folder with your Antropic key. (MindFlow is currently using Claud v2 to power the Mental Service and language faculties.)
 
 4. **Running MindFlow**: 
 

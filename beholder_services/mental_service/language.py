@@ -8,7 +8,7 @@ class Completions:
     MAX_TOKENS_TO_SAMPLE = 2000
 
     def __init__(self):
-        api_key = open_file("/Users/jameswinans/.anthropic_key")
+        api_key = open_file(".anthropic_key")
         self.c = anthropic.AsyncAnthropic(api_key=api_key)
 
     def create(self, prompt, stream=False):
