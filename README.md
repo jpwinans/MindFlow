@@ -39,8 +39,7 @@ pip install -r requirements.txt
 4. **Running MindFlow**: Once configured, you can start using MindFlow within your project. This step will vary depending on how MindFlow is designed to be integrated into projects, whether as a standalone application, a library, or a service.
 
 ```bash
-# Example command to run MindFlow
-python mindflow.py
+chainlit run mindflow/chat.py -w
 ```
 
 ## Contributing
