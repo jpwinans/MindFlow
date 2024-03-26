@@ -2,7 +2,7 @@
 
 ## Summary
 
-MindFlow is an innovative AI architecture inspired by a psychological model of nine modes of activity. This architecture is designed to emulate human-like processing by structuring an artificial agent into modular services, including sensation, cognition, emotion, memory, and holisitic synthesis. By integrating these components, MindFlow aims to achieve a balanced and holistic approach to artificial intelligence, enabling agents to not only perceive and conceive but also to reflect upon themselves and their experiences.
+MindFlow is an innovative AI architecture inspired by a psychological model of nine modes of activity. This architecture is designed to emulate human-like processing by structuring an artificial agent into modular services, including sensation, cognition, emotion, memory, and holisitic synthesis. By integrating these components, MindFlow aims to achieve a balanced and holistic approach to artificial intelligence, enabling agents to not only emulation perception and cognition but also to reflect and synthesize those perceptions and outputs of cognition.
 
 ## Main Architecture
 
@@ -10,8 +10,8 @@ MindFlow's architecture is divided into several key modules, each responsible fo
 
 - **Sensation Module**: Handles the perception of external stimuli, acting as the interface between the agent and its environment.
 - **Cognition Module**: Processes the information gathered by the sensation module, enabling the agent to make sense of its surroundings.
-- **Emotion Module**: Generates emotional responses based on the processed information, adding a layer of human-like reactivity and decision-making.
-- **Memory Module**: Stores experiences and information, allowing the agent to learn from past actions and to adapt its behavior over time.
+- **Emotion Module**: Generates emulated emotional responses based on the processed information, adding a layer of human-like reactivity and decision-making.
+- **Memory Module**: Stores "experiences" and information, allowing the agent to learn from past actions and to adapt its behavior over time.
 - **Holistic Module**: Integrates the outputs from all other modules, facilitating self-reflection and the application of learned knowledge to new situations.
 
 These modules work in concert to create an AI agent capable of complex behaviors and decision-making processes that mirror human psychological processes.
