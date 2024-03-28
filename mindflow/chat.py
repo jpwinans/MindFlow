@@ -8,7 +8,7 @@ from time import time
 async def start_chat():
     bot_agent = Agent("Athena", "athena")
     cl.user_session.set("bot_agent", bot_agent)
-    await cl.Avatar(name="Athena", path="mindflow/assets/Athena.png").send()
+    await cl.Avatar(name="Athena", path="mindflow/assets/athena.png").send()
     response = await cl.AskUserMessage(
         author="Athena", content="Hello. To whom am I speaking? Please type your name."
     ).send()
