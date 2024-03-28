@@ -6,23 +6,23 @@ from time import time
 
 @cl.on_chat_start
 async def start_chat():
-    bot_agent = Agent("Guru", "guru")
+    bot_agent = Agent("Athena", "athena")
     cl.user_session.set("bot_agent", bot_agent)
-    await cl.Avatar(name="Guru", path="mindflow/assets/guru.png").send()
+    await cl.Avatar(name="Athena", path="mindflow/assets/Athena.png").send()
     response = await cl.AskUserMessage(
-        author="Guru", content="Hello. To whom am I speaking? Please type your name."
+        author="Athena", content="Hello. To whom am I speaking? Please type your name."
     ).send()
     user_name = response["content"]
     user_agent = Agent(user_name, user_name.lower().replace(" ", "_"))
     cl.user_session.set("user_agent", user_agent)
     if user_agent.get_current_profile() is None:
         await cl.Message(
-            author="Guru",
-            content=f"Hello {user_name}. I am Guru. It doesn't look like we've met. I am here to help. What's on your mind?",
+            author="Athena",
+            content=f"Hello {user_name}. I am Athena. It doesn't look like we've met. I am here to help. What's on your mind?",
         ).send()
     else:
         await cl.Message(
-            author="Guru",
+            author="Athena",
             content=f"Hello {user_name}. It's nice to see you again. What's on your mind?",
         ).send()
 
